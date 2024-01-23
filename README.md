@@ -1,6 +1,6 @@
 # Scryper-Work
 
-# **Section 1: Core Java**\
+# **Section 1: Core Java**
 
 **First Code "Hello World"** \
 
