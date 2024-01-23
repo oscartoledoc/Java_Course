@@ -56,6 +56,21 @@ Primitive:
 > - In some case, if some operation cause a "desbordamiento", java will subtract the number with 256 and take this value.
 > - To deffault, Java takes "float" to represent decimals.
 
+**Values Convertions**
+- Explicit
+b = (byte) a; (Casting)
+
+- Implicit
+a = b (implicit convertion)
+
+*Example of convertion:*
+```java
+char ch = 'a';
+char result = (char)(ch + 1);
+```
+-> *Explain:* \
+Since "char" is char and 1 is entire. A UNICODE value is assigned to "ch" that is 97, It was add to 1, resulted 98. Then since the conversion to char had been done, the 98 means "b" in UNICODE Code. For that, it result = b.
+
 **Link de referencias:**
 > - [This was done with Markdown Code](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 > - [Markdown for code](https://docs.github.com/es/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
