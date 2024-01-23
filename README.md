@@ -1,6 +1,6 @@
 # Scryper-Work
 
-**Sección 1: Core Java**\
+# **Section 1: Core Java**\
 
 **First Code "Hello World"** \
 
@@ -69,7 +69,28 @@ char ch = 'a';
 char result = (char)(ch + 1);
 ```
 -> *Explain:* \
-Since "char" is char and 1 is entire. A UNICODE value is assigned to "ch" that is 97, It was add to 1, resulted 98. Then since the conversion to char had been done, the 98 means "b" in UNICODE Code. For that, it result = b.
+Since "char" is char and 1 is entire. A UNICODE value is assigned to "ch" that is 97, It was add to 1, resulted 98. Then since the conversion to char had been done, the 98 means "b" in UNICODE Code. For that, it result = b.\
+
+## **Conditional and Loops**
+
+**Conditional Statements:**\
+Java supports conditional statements like if, else if, and else to execute different blocks of code based on specified conditions.
+The syntax involves the if keyword followed by a condition. Optionally, else if and else blocks can be added for additional conditions.\
+
+**Loops:**\
+Java provides different types of loops, including for, while, and do-while, to repeatedly execute a block of code.
+The for loop is commonly used for iterating over a range of values, while while and do-while loops are used for general looping constructs.\
+
+**Ternary Operator:**\
+Java features the ternary operator (? :) as a concise way to express a conditional statement in a single line.
+It takes a boolean condition, evaluates it, and returns one of two expressions based on whether the condition is true or false.\
+
+```java
+int a = 3;
+int b = 6;
+int result = (a > 5 && b < 10) ? a : b;
+System.out.println(result);
+```
 
 **Link de referencias:**
 > - [This was done with Markdown Code](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
