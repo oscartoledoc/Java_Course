@@ -2,7 +2,7 @@
 
 # **Section 1: Core Java**
 
-**First Code "Hello World"** \
+**First Code "Hello World"** 
 
 ```java
 class hello
