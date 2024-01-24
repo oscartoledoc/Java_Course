@@ -91,6 +91,31 @@ int b = 6;
 int result = (a > 5 && b < 10) ? a : b;
 System.out.println(result);
 ```
+## **Object-Oriented Programming (OOP)**
+
+In Java, a class is a template for creating objects, and an object is an instance of a class. Classes are fundamental to object-oriented programming (OOP). Here are some key concepts:
+
+- Class:
+
+A class is defined with the keyword class, followed by the class name. Contains members such as fields (variables) and methods (functions).
+
+```java
+public class MiClase {
+    // Campos
+    int miCampo;
+
+    // Métodos
+    void miMetodo() {
+        // Código del método
+    }
+}
+```
+
+- Objects:
+
+Un objeto es una instancia de una clase.
+Se crea usando la palabra clave new.
+
 
 **Link de referencias:**
 > - [This was done with Markdown Code](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
