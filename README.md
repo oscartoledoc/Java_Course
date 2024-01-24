@@ -113,8 +113,11 @@ public class MiClase {
 
 - Objects:
 
-Un objeto es una instancia de una clase.
-Se crea usando la palabra clave new.
+An object is an instance of a class. It is created using the keyword "new".
+
+```java
+MiClase objeto = new MiClase();
+```
 
 
 **Link de referencias:**
