@@ -119,6 +119,82 @@ An object is an instance of a class. It is created using the keyword "new".
 MiClase objeto = new MiClase();
 ```
 
+- Constructor:
+
+A constructor is a special method called when creating an object. Initializes the object's fields.
+
+```java
+public class MiClase {
+    int miCampo;
+
+    // Constructor
+    public MiClase(int valorInicial) {
+        miCampo = valorInicial;
+    }
+}
+```
+
+- Methods:
+
+Methods define the behavior of the class. They can accept parameters and return values.
+
+```java
+public class Calculadora {
+    public int sumar(int a, int b) {
+        return a + b;
+    }
+}
+```
+
+**Ejemplo:**
+
+```java
+// Defition of the class "Persona"
+public class Persona {
+    // Campos (atributos)
+    private String nombre;
+    private int edad;
+
+    // Constructor
+    public Persona(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
+    // Obtain the name
+    public String obtenerNombre() {
+        return nombre;
+    }
+
+    // Obtein the age
+    public int obtenerEdad() {
+        return edad;
+    }
+
+    // Pronto the details
+    public void imprimirDetalles() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad + " años");
+    }
+
+    // Main Method (punto de entrada)
+    public static void main(String[] args) {
+        // Crear objetos de la clase Persona
+        Persona persona1 = new Persona("Alice", 25);
+        Persona persona2 = new Persona("Bob", 30);
+
+        // Acceder a los métodos y campos de los objetos
+        System.out.println("Nombre de persona1: " + persona1.obtenerNombre());
+        System.out.println("Edad de persona2: " + persona2.obtenerEdad());
+
+        // Utilizar el método para imprimir detalles
+        persona1.imprimirDetalles();
+        persona2.imprimirDetalles();
+    }
+}
+
+```
+
 
 **Link de referencias:**
 > - [This was done with Markdown Code](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
