@@ -154,7 +154,7 @@ Docker is a powerful platform that enables developers to create, deploy, and run
 
 - Versioning and Rollbacks: Docker images support versioning, allowing developers to tag and rollback to specific versions. This helps in tracking changes, testing different releases, and rolling back in case of issues.
 
-## Docker:
+## Microservices
 
 Microservices architecture is an approach to software development that structures an application as a collection of small, independently deployable services. In the context of Java development, adopting microservices offers several advantages, promoting scalability, flexibility, and maintainability.
 
