@@ -1,8 +1,8 @@
 # Scryper-Work
 
-**Sección 1: Core Java**\
+# **Section 1: Core Java**
 
-**First Code "Hello World"** \
+**First Code "Hello World"** 
 
 ```java
 class hello
@@ -69,7 +69,132 @@ char ch = 'a';
 char result = (char)(ch + 1);
 ```
 -> *Explain:* \
-Since "char" is char and 1 is entire. A UNICODE value is assigned to "ch" that is 97, It was add to 1, resulted 98. Then since the conversion to char had been done, the 98 means "b" in UNICODE Code. For that, it result = b.
+Since "char" is char and 1 is entire. A UNICODE value is assigned to "ch" that is 97, It was add to 1, resulted 98. Then since the conversion to char had been done, the 98 means "b" in UNICODE Code. For that, it result = b.\
+
+## **Conditional and Loops**
+
+**Conditional Statements:**\
+Java supports conditional statements like if, else if, and else to execute different blocks of code based on specified conditions.
+The syntax involves the if keyword followed by a condition. Optionally, else if and else blocks can be added for additional conditions.\
+
+**Loops:**\
+Java provides different types of loops, including for, while, and do-while, to repeatedly execute a block of code.
+The for loop is commonly used for iterating over a range of values, while while and do-while loops are used for general looping constructs.\
+
+**Ternary Operator:**\
+Java features the ternary operator (? :) as a concise way to express a conditional statement in a single line.
+It takes a boolean condition, evaluates it, and returns one of two expressions based on whether the condition is true or false.\
+
+```java
+int a = 3;
+int b = 6;
+int result = (a > 5 && b < 10) ? a : b;
+System.out.println(result);
+```
+## **Object-Oriented Programming (OOP)**
+
+In Java, a class is a template for creating objects, and an object is an instance of a class. Classes are fundamental to object-oriented programming (OOP). Here are some key concepts:
+
+- Class:
+
+A class is defined with the keyword class, followed by the class name. Contains members such as fields (variables) and methods (functions).
+
+```java
+public class MiClase {
+    // Campos
+    int miCampo;
+
+    // Métodos
+    void miMetodo() {
+        // Código del método
+    }
+}
+```
+
+- Objects:
+
+An object is an instance of a class. It is created using the keyword "new".
+
+```java
+MiClase objeto = new MiClase();
+```
+
+- Constructor:
+
+A constructor is a special method called when creating an object. Initializes the object's fields.
+
+```java
+public class MiClase {
+    int miCampo;
+
+    // Constructor
+    public MiClase(int valorInicial) {
+        miCampo = valorInicial;
+    }
+}
+```
+
+- Methods:
+
+Methods define the behavior of the class. They can accept parameters and return values.
+
+```java
+public class Calculadora {
+    public int sumar(int a, int b) {
+        return a + b;
+    }
+}
+```
+
+**Ejemplo:**
+
+```java
+// Defition of the class "Persona"
+public class Persona {
+    // Campos (atributos)
+    private String nombre;
+    private int edad;
+
+    // Constructor
+    public Persona(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
+    // Obtain the name
+    public String obtenerNombre() {
+        return nombre;
+    }
+
+    // Obtein the age
+    public int obtenerEdad() {
+        return edad;
+    }
+
+    // Pronto the details
+    public void imprimirDetalles() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad + " años");
+    }
+
+    // Main Method (punto de entrada)
+    public static void main(String[] args) {
+        // Crear objetos de la clase Persona
+        Persona persona1 = new Persona("Alice", 25);
+        Persona persona2 = new Persona("Bob", 30);
+
+        // Acceder a los métodos y campos de los objetos
+        System.out.println("Nombre de persona1: " + persona1.obtenerNombre());
+        System.out.println("Edad de persona2: " + persona2.obtenerEdad());
+
+        // Utilizar el método para imprimir detalles
+        persona1.imprimirDetalles();
+        persona2.imprimirDetalles();
+    }
+}
+
+```
+
 
 **Link de referencias:**
 > - [This was done with Markdown Code](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
