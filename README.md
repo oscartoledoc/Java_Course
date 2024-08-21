@@ -1,4 +1,4 @@
-# Scryper-Work
+# Java Course - Resume
 
 # **Section 1: Core Java**
 
