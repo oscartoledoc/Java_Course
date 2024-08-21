@@ -1,4 +1,4 @@
-# Java Course - Resume
+# Java Course - Summary
 
 # **Section 1: Core Java**
 
