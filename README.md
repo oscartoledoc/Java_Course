@@ -1,4 +1,4 @@
-# Scryper-Work
+# Java Course - Summary
 
 # **Section 1: Core Java**
 
