@@ -7,9 +7,15 @@ class Mascota {
     String sexo;
     static String tipo;
 
-    public Mascota(){ //This is a CONSTRUCTOR
+    public Mascota(){ //This is a DEFAULT CONSTRUCTOR
         name = "Carl";
         edad = 11;
+    }
+
+
+    public Mascota(String name, int edad) { //This is a paramaterized constructor
+        this.name = name;
+        this.edad = edad;
     }
 
 
@@ -52,10 +58,12 @@ public class string {
     public static void main(String[] args) {    //It's static, so I don't need to instance the class to call the method.
 
     Mascota mascota1 = new Mascota();
+    Mascota mascota2 = new Mascota("Fer",13);
     // mascota1.setName("Fido");
     // mascota1.setEdad(5);
 
     System.out.println("El nombre es: " + mascota1.getName() + " y su edad es: " + mascota1.getEdad());
+    System.out.println("El nombre es: " + mascota2.getName() + " y su edad es: " + mascota2.getEdad());
 
     // mascota1.showData();
     // mascota2.showData();
