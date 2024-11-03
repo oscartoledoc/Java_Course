@@ -1,10 +1,10 @@
+package MyAppCalc;
 import java.util.Scanner;
-import AppCalcMult from AppCalcMult;
 
 public class AppCalc{
 
-    private double a;
-    private double b;
+    protected double a;
+    protected double b;
 
 /* Param a = #1
  * Param b = #2 */
@@ -35,7 +35,7 @@ public class AppCalc{
     public static void main(String[] args)
     {
 /* Here I'm creating the AppCalcu's variables */
-        AppCalc op1 = new AppCalc();
+        AppCalcMult op1 = new AppCalcMult();
         Scanner scanner = new Scanner(System.in);   //Instanzing class of scanner
         char opcion;
 
