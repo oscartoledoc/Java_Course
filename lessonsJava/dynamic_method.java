@@ -10,6 +10,11 @@ class Tarjeta extends Payments{
     }
 }
 
+class Efectivo extends Payments {
+    void pay
+    
+}
+
 public class dynamic_method {
 
     void sound(){
